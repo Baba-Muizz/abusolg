@@ -363,7 +363,7 @@ input:focus, textarea:focus, *:required:focus{border-color:#56d361;}
 .prices li article p:last-of-type strong{color:#0b7c3a;}
 
 .red{color:#B12E52;}
-.green{color:#00B900;}
+.green{color:#036903;}
 .deep-green{color:#028102;}
 .white{color:#f5f5f5;}
 
@@ -415,14 +415,17 @@ tr, #comments li, #comments input[type="submit"], #comments input[type="reset"]{
 tr:nth-child(even), #comments li:nth-child(even){color:inherit; background-color:#F7F7F7;}
 table a, #comments a{background-color:inherit;}
 
-table th,td{text-align: center;}
+table th,td{text-align:center;padding:10px 0;}
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
 /* ------------------------------------------------------------------------------------------------------------ */
-
-
+.course td,.course th{padding:10px 0;}
+.course-outline{background-color: rgb(3, 129, 3); 
+				font-family: Verdana, Geneva, Tahoma, sans-serif; 
+				border-left:solid 5px rgb(2, 53, 2);
+				border-radius:5%;}
 /* Media Queries
 --------------------------------------------------------------------------------------------------------------- */
 @-ms-viewport{width:device-width;}
@@ -506,8 +509,10 @@ table th,td{text-align: center;}
 	.font-x2{font-size:1.4rem;}
 	.font-x3{font-size:1.6rem;}
 	#topbar{display:none;}
-	.laptop-target{display:none}
+	.laptop-target,.time-table{display:none}	
 }
+
 @media screen and (min-width:650px){
 	.phone-target{display:none}
+	.tutorial{display: inline;}
 }
