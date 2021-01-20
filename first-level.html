@@ -269,9 +269,9 @@
           
         <button onclick="myFunction('course1')" class="w3-btn w3-block w3-black w3-left-align ">SOLG 101 <small class="fa fa-caret-down"></small></button>
         <div id="course1" class="w3-container w3-hide">
-          <h4>Week 1</h4>
+          <h6>Week 1</h6>
           <p>Introduction to Sociology</p>
-          <h4>Week 2</h4>
+          <h6>Week 2</h6>
           <p>Founding fathers of sociology </p>
           <small>Auguste Comte</small>
         </div>
@@ -417,14 +417,18 @@
     <!-- ################################################################################################ -->
     <div class="one_quarter first">
       <h6 class="heading">About Us</h6>
-      <p>Luctus et dolor nulla facilisi fusce sit amet magna non odio molestie egestas nullam id odio.</p>
-      <p class="btmspace-30">Quis risus placerat aliquam nunc nec nunc morbi vel nisi sit amet orci adipiscing pharetra [<a href="#"><i class="fas fa-arrow-right"></i></a>]</p>
+      <p>Abusolg is a tech-solution platform channelled towards helping sociology students meet academic goals and expectations.[<a href="about.html"><i class="fas fa-arrow-right"></i></a>]</p>
+      <p class="topspace-10 white">Founder: <b>Yusuf Abdulmuizz</b> </p>
       <ul class="faico clear">
-        <li><a class="faicon-facebook" href="#"><i class="fab fa-facebook"></i></a></li>
-        <li><a class="faicon-google-plus" href="#"><i class="fab fa-google-plus-g"></i></a></li>
-        <li><a class="faicon-linkedin" href="#"><i class="fab fa-linkedin"></i></a></li>
-        <li><a class="faicon-twitter" href="#"><i class="fab fa-twitter"></i></a></li>
-        <li><a class="faicon-vk" href="#"><i class="fab fa-vk"></i></a></li>
+        <li><a class="faicon-instagram"  href="https://www.instagram.com/baba_muizz" target="_blank"><i class="fab fa-instagram"></i></a></li>
+        <li><a class="faicon-linkedin"href="https://www.linkedin.com/in/abdulmuizz-yusuf-72798716a" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-twitter" href="https://www.twitter.com/AbdulmuizzYusuf" target="_blank"><i class="fab fa-twitter"></i></a></li>
+        <li><a class="faicon-envelope"href="mailto:yusufabdulmuizz00@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
+
+        <p class="topspace-10 white"><small>Co-founder: <b>Habibullahi AbdulRazak</b></small></p>
+        <li><a class="faicon-facebook" href="https://www.facebook.com/bolasiehabeebulaw.abdulrazak"><i class="fab fa-facebook"></i></a></li>
+        <li><a class="faicon-linkedin"href="https://www.linkedin.com/in/habibullahiabdulrazak" target="_blank"><i class="fab fa-linkedin"></i></a></li>
+        <li><a class="faicon-envelope"href="mailto:abdulrazakhabibullahi@gmail.com" target="_blank"><i class="fa fa-envelope"></i></a></li>
       </ul>
     </div>
     <div class="one_quarter" id="map">
@@ -474,6 +478,29 @@
     <!-- ################################################################################################ -->
   </div>
 </div>
+
+
+<script type="text/javascript">
+let re=/^u[0-9][0-9]sg[0-9][0-9][0-9][0-9]/i;
+const str =prompt('Please Input your Reg Number To Continue');
+
+const result=re.exec(str);
+function reTest(re,str) {
+  if (re.test(str)){
+    alert('Click Ok to Continue');
+  }
+  else if(re.test(str === null)){
+   alert('Please Fill to Login');
+  }
+  else{
+    alert('Wrong Input Please Try Again');
+    prompt('Input reg Number Again');
+  }
+}
+reTest(re,str);
+</script>
+
+
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
