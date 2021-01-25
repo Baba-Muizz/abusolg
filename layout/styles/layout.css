@@ -414,8 +414,12 @@ table th,td{text-align:center;padding:10px 0;}
 	.cta > :first-child{margin-top:0; text-align:center;}
 	.cta footer a{display:inline-block;}
 
-	.level li:nth-last-child(-n+3){margin-bottom:50px;}
+	.level li:nth-last-child(-n+3){margin-bottom:30px;}
 	#latest ul li:nth-last-child(-n+3){margin-bottom:30px;}
+	
+	.w3-hide li:nth-child(-n+10){margin:3px 0px; padding:0px;}
+	.w3-hide ul li:nth-child(-n+10){margin-bottom:3px; padding: 0px;}
+	
 
 	#footer{padding-bottom:50px;}/* Not required, just looks a little better */
 }
