@@ -7,7 +7,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="layout/styles/fontawesome-free/css/bootstrap.min.css">
+<link rel="stylesheet" href="../layout/styles/fontawesome-free/css/bootstrap.min.css">
 <link rel="icon"  title="Queen of all sciences" href="images/Abu/logo.png">
 </head>
 <body id="top">
@@ -78,52 +78,39 @@
     </nav>
   </header>
 </div>
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
+<!-- ################################################################################################ -->
 
-
-<div class="wrapper row2" style="background:#eeeeee;">
-  <section id="latest" class="hoc container clear"> 
-    <!-- ################################################################################################ -->
-    <div class="sectiontitle">
-      <h6 class="heading">Socio-Image</h6>
-      <p>Sociological Memorable images</p>
+   <!-- start contact section -->
+   <section class="contact" id="contact">
+      <div class="contact-img-background" style="background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0, 0.2)),url('images/Abu/bg2.png');  background-size:cover;">
+      <div class="container">
+        <div class="img-bg">
+          <img src="" alt="" class="img-responsive">
+          <div class="form wow">
+            <h1 class="text-center wow">Enquiry or Feedback</h1>
+            <hr>
+            <h3 id="Answer" class="text-uppercase text-center" style="color:red;"></h3>
+            <form class="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mbjpyvag" method="post">
+            <label for="name">Your Name</label>
+              <input type="text" name="name" onkeypress="return validateName(event)"  class="form-control" id="name" placeholder="Your Name" value="">
+              <label for="email">E-Mail</label>
+              <input type="email"  name="email"  class="form-control" id="email" placeholder="E-Mail" value="">
+              <label for="email">Phone Number</label>
+              <input type="text"  name="phone"  class="form-control" id="phone" placeholder="phone" value="">
+                <label for="message" >Message</label>
+              <textarea name="message" id="message" maxlength="1000" cols="30" rows="10" placeholder="Enter Your Message Here" class="form-control"></textarea>
+            <div class="submit">
+                <input type="submit" name="" value="Submit" class="  btn btn-success  form-control">
+            </div>
+            </form>
+          </div>
+          </div>
+      </div>
     </div>
-    <ul class="nospace group">
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/Editor1.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">abusolg Editor-in-Chief</figcaption>
-        </figure>
-      </li>
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/ass-editor.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">abusolg Assistant Editor</figcaption>
-        </figure>
-      </li>
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/garden.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">Sociology Garden</figcaption>
-        </figure>
-      </li>
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/senate.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">ABU Senate building</figcaption>
-        </figure>
-      </li>
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/solg-meeeting.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">Conference meeting during solg@50</figcaption>
-        </figure>
-      </li>
-    </ul>
-      <li class="one_third col-md-4">
-        <figure><img src="images/Abu/debate.jpg" alt="" class="img-responsive">
-          <figcaption class="uppercase text-center">Sociologist emerged first in the departmental debate</figcaption>
-        </figure>
-      </li>
-    </ul>
-    <footer class="block center"><a class="btn" href="#">More</a></footer>
-    <!-- ################################################################################################ -->
-  </section>
-</div>
+    </section>
+<!-- ################################################################################################ -->
 <!-- ################################################################################################ -->
 <div class="wrapper row4">
   <footer id="footer" class="hoc clear"> 
@@ -190,10 +177,12 @@
     <!-- ################################################################################################ -->
   </div>
 </div>
+
 <!-- ################################################################################################ -->
 <a id="backtotop" href="#top"><i class="fas fa-chevron-up"></i></a>
 <!-- JAVASCRIPTS -->
 <script src="layout/scripts/jquery.min.js"></script>
+<script src="layout/scripts/script.js"></script>
 <script src="layout/scripts/bootstrap.min.js"></script>
 <script src="layout/scripts/jquery.backtotop.js"></script>
 <script src="layout/scripts/jquery.mobilemenu.js"></script>
