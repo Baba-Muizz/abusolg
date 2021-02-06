@@ -126,8 +126,8 @@ html{scroll-behavior: smooth;}
 	text-shadow: 2px 0px 2px 4px lightgray;
   }
   section.contact{
-    margin-bottom:350px;
-    padding-bottom:100px;
+    /* margin-bottom:10px; */
+    /* padding-bottom:10px; */
    }
    section.contact .form{
      background: rgba(255,255,255,0.6);
@@ -135,14 +135,14 @@ html{scroll-behavior: smooth;}
      border-radius:20px;
      padding:20px;
      align-items: center;
-     position: absolute;
+     /* position: absolute; */
      top:15%;
      left:5%;
      animation: contact-bg 20s infinite;
      box-shadow: 3px 2px rgb(34, 34, 34);
    }
    section.contact .submit{
-     padding-top:10px;
+     padding-top:5px;
    }
    section.contact button{
      top:0px;
