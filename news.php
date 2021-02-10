@@ -110,7 +110,7 @@
 
   <ul class="nospace group" style="margin-bottom:15px;">
     <li class="one_third col-md-4">
-      <figure><img src="images/Abu/time-table.jpeg" alt="" class="img-responsive">
+      <figure><img src="images/Abu/new_time_table.jpeg" alt="" class="img-responsive">
         <figcaption class="uppercase text-center">General Time-Table</figcaption>
       </figure>
     </li>
