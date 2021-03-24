@@ -24,6 +24,8 @@ html{scroll-behavior: smooth;}
 .row4, .row4 a{}
 .row5, .row5 a{}
 
+.p-5{padding:25px;margin:5px;}
+
 
 /* Top Bar
 --------------------------------------------------------------------------------------------------------------- */
@@ -53,7 +55,7 @@ html{scroll-behavior: smooth;}
 #header #logo{margin:30px 0 0 0;}
 #header #logo h1{margin:0; padding:0; font-size:40px; text-transform:uppercase;}
 
-
+.shadow-sm{-webkit-box-shadow:0 1.5625rem 2.8125rem rgba(0,87,255,0.15) !important;box-shadow:0 1.5625rem 2.8125rem rgba(0,87,255,0.15) !important;padding: 10px;margin-top: 20px;}
 /* Page Intro
 --------------------------------------------------------------------------------------------------------------- */
 #pageintro{padding:100px 0 200px 0;}

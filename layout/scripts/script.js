@@ -29,3 +29,10 @@ function validateName(event) {
       return false;
   }
 }
+
+// dynamic year 
+let footerYear= new Date();
+footerYear=footerYear.getFullYear();
+document.getElementById('year').innerHTML=footerYear;
+
+ 
