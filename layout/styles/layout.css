@@ -125,23 +125,17 @@ html{scroll-behavior: smooth;}
   /* section contact class */
  section.contact{
 	color: #000;
-	text-shadow: 2px 0px 2px 4px lightgray;
+	text-shadow: 2px 0px 2px 6px lightgray;
   }
-  section.contact{
-    /* margin-bottom:10px; */
-    /* padding-bottom:10px; */
-   }
+ 
    section.contact .form{
      background: rgba(255,255,255,0.6);
-     width:90%;
-     border-radius:20px;
-     padding:20px;
-     align-items: center;
+     margin: 35px;
+     padding:10px;
+   
      /* position: absolute; */
-     top:15%;
-     left:5%;
      animation: contact-bg 20s infinite;
-     box-shadow: 3px 2px rgb(34, 34, 34);
+     box-shadow: 3px 0px 6px rgb(34, 34, 34);
    }
    section.contact .submit{
      padding-top:5px;
@@ -149,26 +143,7 @@ html{scroll-behavior: smooth;}
    section.contact button{
      top:0px;
      left:25px;
-   }
-   section.contact textarea{
-     max-height:100px;
-     min-height:100px;
-     max-width:100%;
-     min-width: 100%;
-   }
-   section.contact .form hr{
-    border-bottom: 5px solid #79b97e;
-    width: 15%;
-    margin-top: 0%;
-   }
-   section.contact .form h1{
-       font-size: 40px;
-       font-weight: bolder;
-   }
-   section.contact .img-bg{
-	   position: relative;
-   }
-   
+   }   
 
 
    @keyframes contact-bg{

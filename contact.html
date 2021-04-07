@@ -7,15 +7,9 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 <link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
-<link rel="stylesheet" href="../layout/styles/fontawesome-free/css/bootstrap.min.css">
+<link rel="stylesheet" href="./layout/styles/fontawesome-free/css/bootstrap.min.css">
 <link rel="icon"  title="Queen of all sciences" href="images/Abu/logo.png">
 
-<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
-    <script>
-        Weglot.initialize({
-            api_key: 'wg_1b89c3942fa7d9e7532b50aedcc1c88a0'
-        });
-    </script>
 </head>
 <body id="top">
 <!-- ################################################################################################ -->
@@ -97,29 +91,52 @@
 
    <!-- start contact section -->
    <section class="contact" id="contact">
-      <div class="contact-img-background" style="background-image: linear-gradient(rgba(0,0,0, 0.1),rgba(0,0,0, 0.1)),url('images/Abu/abu.jpeg'); background-size:cover;">
+      <div class="contact-img-background" style="background-image: linear-gradient(rgba(0,0,0, 0.3),rgba(0,0,0, 0.4)),url('images/Abu/bg1.jpg'); background-size:cover;">
       <div class="container">
-        <div class="img-bg">
-          <img src="" alt="" class="img-responsive">
-          <div class="form wow">
-            <h1 class="text-center wow">Enquiry or Feedback</h1>
-            <hr>
-            <h3 id="Answer" class="text-uppercase text-center" style="color:red;"></h3>
-            <form class="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mbjpyvag" method="post">
-            <label for="name">Your Name</label>
-              <input type="text" name="name" onkeypress="return validateName(event)"  class="form-control" id="name" placeholder="Your Name" value="">
-              <label for="email">E-Mail</label>
-              <input type="email"  name="email"  class="form-control" id="email" placeholder="E-Mail" value="">
-              <label for="email">Phone Number</label>
-              <input type="text"  name="phone"  class="form-control" id="phone" placeholder="phone" value="">
-                <label for="message" >Message</label>
-              <textarea name="message" id="message" maxlength="1000" cols="30" rows="10" placeholder="Enter Your Message Here" class="form-control"></textarea>
-            <div class="submit">
-                <input type="submit" name="" value="Submit" class="  btn btn-success  form-control">
+       <div class="row">
+         <div class="col-md-6-offset-3">
+          <div class="img-bg">
+            <div class="form wow"> 
+              <img src="images/Abu/bg3.png" alt="" class="img-responsive">      
+              <h3 id="Answer" class="text-uppercase text-center" style="color:red;"></h3>
+              <form class="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mbjpyvag" method="post">
+              <label for="name">Your Name</label>
+                <input type="text" name="name" onkeypress="return validateName(event)"  class="form-control" id="name" placeholder="Your Name" value="">
+                <label for="email">E-Mail</label>
+                <input type="email"  name="email"  class="form-control" id="email" placeholder="E-Mail" value="">
+                <label for="email">Phone Number</label>
+                <input type="text"  name="phone"  class="form-control" id="phone" placeholder="phone" value="">
+                  <label for="message" >Message</label>
+                <textarea name="message" id="message" maxlength="1000" cols="30" rows="10" placeholder="Enter Your Message Here" class="form-control"></textarea>
+              <div class="submit">
+                  <input type="submit" name="" value="Submit" class="  btn btn-success  form-control">
+              </div>
+              </form>
             </div>
-            </form>
-          </div>
-          </div>
+            </div>
+         </div>
+         <!-- <div class="col-md-6">
+          <div class="img-bg">
+            <div class="form wow">       
+              <img src="images/Abu/bg1.jpg" alt="" class="img-responsive">
+              <h3 id="Answer" class="text-uppercase text-center" style="color:red;"></h3>
+              <form class="myForm" onsubmit="return validateForm()" action="https://formspree.io/f/mbjpyvag" method="post">
+              <label for="name">Your Name</label>
+                <input type="text" name="name" onkeypress="return validateName(event)"  class="form-control" id="name" placeholder="Your Name" value="">
+                <label for="email">E-Mail</label>
+                <input type="email"  name="email"  class="form-control" id="email" placeholder="E-Mail" value="">
+                <label for="email">Phone Number</label>
+                <input type="text"  name="phone"  class="form-control" id="phone" placeholder="phone" value="">
+                  <label for="message" >Message</label>
+                <textarea name="message" id="message" maxlength="1000" cols="30" rows="10" placeholder="Enter Your Message Here" class="form-control"></textarea>
+              <div class="submit">
+                  <input type="submit" name="" value="Submit" class="  btn btn-success  form-control">
+              </div>
+              </form>
+            </div>
+            </div>
+         </div> -->
+       </div>
       </div>
     </div>
     </section>
